@@ -1,0 +1,162 @@
+{
+  "Categories": [
+    {
+        "title":"Html",
+        "imgPath":"html-2.PNG"
+    },
+    {
+        "title":"Css",
+        "imgPath":"css-2.PNG"
+    },
+    {
+        "title":"Javascript",
+        "imgPath":"js-2.PNG"
+    },
+    {
+        "title":"React",
+        "imgPath":"r-2.PNG"
+    }
+    ],
+  "quizzes":[
+    {
+      "id": 1,
+      "category": "HTML",
+      "question": "HTML에서 웹페이지의 최상위 구조를 나타내는 태그는 무엇일까? ",
+      "choices": ["<html>", "<head>", "<body>", "<main>"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "category": "HTML",
+      "question": "이미지를 삽입할 때 사용하는 태그는? ",
+      "choices": ["<media>", "<picture>", "<img>", "<image>"],
+      "correct": 3
+    },
+    {
+      "id": 3,
+      "category": "HTML",
+      "question": "웹 접근성을 위해 이미지에 필요한 속성은? ",
+      "choices": ["role", "hidden", "href", "alt"],
+      "correct": 4
+    },
+    {
+      "id": 4,
+      "category": "HTML",
+      "question": "HTML에서 하이퍼링크를 만드는 태그는? ",
+      "choices": ["<goto>", "<link>", "<a>", "<url>"],
+      "correct": 3
+    },
+    {
+      "id": 5,
+      "category": "HTML",
+      "question": "HTML의 블록 요소가 아닌 것은? ",
+      "choices": ["<section>", "<p>", "<div>", "<span>"],
+      "correct": 4
+    },
+   {
+  "id": 6,
+  "category": "CSS",
+  "question": "CSS에서 글자 색상을 변경하는 속성은? ",
+  "choices": ["color", "font-size", "background-color", "border"],
+  "correct": 1
+},
+{
+  "id": 7,
+  "category": "CSS",
+  "question": "CSS에서 요소를 가운데 정렬하는 방법은? ",
+  "choices": ["text-align: center;", "align-items: flex-start;", "justify-content: flex-end;", "display: block;"],
+  "correct": 1
+},
+{
+  "id": 8,
+  "category": "CSS",
+  "question": "CSS에서 클래스 선택자를 표현하는 기호는? ",
+  "choices": ["#", ".", "@", "$"],
+  "correct": 2
+},
+{
+  "id": 9,
+  "category": "CSS",
+  "question": "CSS에서 배경 이미지를 설정할 때 사용하는 속성은? ",
+  "choices": ["background-color", "background-image", "border-image", "image-src"],
+  "correct": 2
+},
+{
+  "id": 10,
+  "category": "CSS",
+  "question": "CSS에서 hover 시 스타일을 적용할 때 사용하는 선택자는? ",
+  "choices": [":hover", ":active", ":focus", ":visited"],
+  "correct": 1
+},
+    {
+      "id": 11,
+      "category": "JAVASCRIPT",
+      "question": "JavaScript에서 변수를 선언하는 키워드가 아닌 것은? ",
+      "choices": ["make", "let", "const", "var"],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "category": "JAVASCRIPT",
+      "question": "숫자를 문자열로 변환하는 방법은? ",
+      "choices": ["parseInt()", "toNum()", "String()", "toString()"],
+      "correct": 3
+    },
+    {
+      "id": 13,
+      "category": "JAVASCRIPT",
+      "question": "배열의 길이를 확인하는 속성은? ",
+      "choices": ["items", "size", "length", "count"],
+      "correct": 3
+    },
+    {
+      "id": 14,
+      "category": "JAVASCRIPT",
+      "question": "함수를 선언하는 기본 문법은? ",
+      "choices": ["func -> {}", "function() {}", "new Function {}", "() => ()"],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "category": "JAVASCRIPT",
+      "question": "배열에 요소를 추가하는 함수는? ",
+      "choices": ["push()", "append()", "add()", "insert()"],
+      "correct": 1
+    },
+    {
+      "id": 16,
+      "category": "REACT",
+      "question": "React가 사용하는 UI 구성 방식은? ",
+      "choices": ["문서 기반", "프레임 기반", "페이지 기반", "컴포넌트 기반"],
+      "correct": 4
+    },
+    {
+      "id": 17,
+      "category": "REACT",
+      "question": "React에서 상태 관리를 위해 사용하는 Hook은? ",
+      "choices": ["useState()", "useData()", "setState()", "getState()"],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "category": "REACT",
+      "question": "React의 화면 렌더링 방식 핵심 개념은? ",
+      "choices": ["Main DOM", "Real DOM", "Shadow DOM", "Virtual DOM"],
+      "correct": 4
+    },
+    {
+      "id": 19,
+      "category": "REACT",
+      "question": "React 컴포넌트의 필수 구성 요소는? ",
+      "choices": ["build()", "return()", "launch()", "start()"],
+      "correct": 2
+    },
+    {
+      "id": 20,
+      "category": "REACT",
+      "question": "React에서 부모 → 자식에게 값을 전달할 때 사용하는 것은? ",
+      "choices": ["context", "state", "props", "module"],
+      "correct": 3
+    }
+  ]
+}
