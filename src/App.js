@@ -44,9 +44,10 @@ const App = () => {
       //카테고리 클릭 하기 전에는 안 보이게 &&로 처리
       }
       {/* <p>APP SCORE:{score}</p> */}
-      {
+      {/* {
         finish && < Results onReStart={handleRestart}/>
-      }
+      } */}
+      {finish && <Results onReStart={handleRestart} score={score} />}
     </div>
   )
 }
