@@ -33,10 +33,6 @@ const [current,setCurrent] = useState(0);
         </ul>
         <p>중간 점수: {score}</p>
         </div>
-        {/* <div className="btn"> 
-          <button>〈 </button>
-          <button> 〉</button>
-          </div> */}
         </div>
   )
 }
