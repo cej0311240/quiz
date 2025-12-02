@@ -2,19 +2,19 @@
   "Categories": [
     {
         "title":"Html",
-        "imgPath":"html-2.PNG"
+        "imgPath":"html-2.png"
     },
     {
         "title":"Css",
-        "imgPath":"css-2.PNG"
+        "imgPath":"css-2.png"
     },
     {
         "title":"Javascript",
-        "imgPath":"js-2.PNG"
+        "imgPath":"js-2.png"
     },
     {
         "title":"React",
-        "imgPath":"r-2.PNG"
+        "imgPath":"r-2.png"
     }
     ],
   "quizzes":[
